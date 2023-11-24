@@ -2,10 +2,11 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "homepage": "http://alexawnder.github.io/homework6.github.io/",
+  "homepage": "https://alexawnder.github.io/homework6.github.io/",
   "devDependencies": {
     "gh-pages": "^6.1.0"
   },
@@ -14,8 +15,8 @@
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
